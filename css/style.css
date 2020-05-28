@@ -94,6 +94,13 @@ p {
   -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
+@media(max-width:600px){
+  .wrapper
+  {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
 
 .sidebar-wrapper {
   background: #efc1c1;
